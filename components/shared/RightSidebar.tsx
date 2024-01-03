@@ -5,26 +5,26 @@ import RenderTag from "./RenderTag";
 
 const hotQuestions = [
   {
-    _id: 1,
+    _id: "1",
     title:
       "Best practices for data fetching in a Next.js application with Server-Side Rendering (SSR)?",
   },
-  { _id: 2, title: "Is it only me or the font is bolder than necessary?" },
-  { _id: 3, title: "Redux Toolkit Not Updating State as Expected" },
+  { _id: "2", title: "Is it only me or the font is bolder than necessary?" },
+  { _id: "3", title: "Redux Toolkit Not Updating State as Expected" },
   {
-    _id: 4,
+    _id: "4",
     title:
       "How do ES6 module exports and imports work in JavaScript, and what are the key differences from CommonJS?",
   },
-  { _id: 5, title: "Cascading Deletes in SQLAlchemy?" },
+  { _id: "5", title: "Cascading Deletes in SQLAlchemy?" },
 ];
 
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "react", totalQuestions: 5 },
-  { _id: 3, name: "next", totalQuestions: 5 },
-  { _id: 4, name: "vue", totalQuestions: 2 },
-  { _id: 5, name: "redux", totalQuestions: 10 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "react", totalQuestions: 5 },
+  { _id: "3", name: "next", totalQuestions: 5 },
+  { _id: "4", name: "vue", totalQuestions: 2 },
+  { _id: "5", name: "redux", totalQuestions: 10 },
 ];
 
 const RightSidebar = () => {
