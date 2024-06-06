@@ -13,11 +13,13 @@ interface Props {
   views: number;
   answers: Array<object>;
   createdAt: Date;
+  clerkId?: string;
 }
 
 const QuestionCard = ({
   _id,
   title,
+  clerkId,
   tags,
   author,
   upvotes,
